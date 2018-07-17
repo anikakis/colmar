@@ -460,7 +460,6 @@ header .logo {
   flex-direction: column;
   width: 100%;
   padding: 0;
-
 }
 
 .campus .box {
@@ -509,13 +508,46 @@ header .logo {
   line-height: 1.5;
 }
 
-.program .text a {
-  text-decoration: none;
+.learning {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0rem;
+  background-color: #b3b9be;
+}
+
+.learning h2 {
+  font-weight: bold;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.learning .upper, .lower {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.learning .course {
+  width: 100%;
+  padding: 0.5rem;
   transition: all 400ms ease-in-out 20ms;
 }
 
-.program .text a:hover {
-  color: firebrick;
+
+
+.learning .coursename {
+  background-color: #f6f5f6;
+  height: 2.5rem;
+  width: 100%
+  padding: 1rem;
 }
+
+.learning .coursename h3 {
+  padding: 0.5rem 0;
+}
+
+
 
 }
