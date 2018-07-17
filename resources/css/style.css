@@ -378,12 +378,17 @@ footer a {
 /*Queries Section*/
 
 @media only screen and (min-width: 471px) {
-  header #fa {
+  #fa,
+  #mobile {
     display: none;
   }
 }
 
 @media only screen and (max-width: 470px) {
+#desktop {
+  display:none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -448,6 +453,69 @@ header .logo {
   border-radius: 3px;
   transition: all 400ms ease-in-out 20ms;
   margin: 0 1.5rem 2rem 1.5rem;
+}
+
+.campus .program {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+
+}
+
+.campus .box {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-end;*/
+  align-items: baseline;
+  border-bottom: 1px solid #b3b9be;
+  transition: all 400ms ease-in-out 20ms;
+  padding: 1rem;
+}
+
+.campus .box .text {
+  padding-left: 1rem;
+}
+
+.campus h3 {
+  padding-top: 1rem;
+}
+
+.campus .box:hover {
+  background-color: #e4d06b;
+  color: #293c5d;
+  text-shadow: 0 1px 1px #293c5d;
+}
+
+.campus .imagecontainer3 {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+
+}
+
+.campus .imagecontainer3 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.campus .imagecontainer3 .text {
+  width: 100%;
+}
+
+.program .text p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.program .text a {
+  text-decoration: none;
+  transition: all 400ms ease-in-out 20ms;
+}
+
+.program .text a:hover {
+  color: firebrick;
 }
 
 }
