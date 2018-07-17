@@ -561,6 +561,7 @@ header .logo {
 
 footer {
   height: 2.75rem;
+  align-items: center;
 }
 
 
